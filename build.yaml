@@ -13,4 +13,5 @@
 #
 ---
 include:
-  - board: black44hawk
+  - board: nice_nano_v2
+    shield: BLACK44HAWK

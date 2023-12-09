@@ -1,0 +1,8 @@
+file_format: "1"
+id: BLACK44HAWK
+name: BLACK44HAWK 
+type: shield
+url: https://github.com/sergzver85/BLACK44HAWK
+requires: [pro_micro]
+features:
+  - keys

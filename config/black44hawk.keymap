@@ -37,7 +37,7 @@
 &kp ESC         &kp Q  &kp W  &kp E      &kp R            &kp T        &kp Y        &kp U           &kp I        &kp O    &kp P     &kp LBKT
 &mt LALT GRAVE  &kp A  &kp S  &kp D      &kp F            &kp G        &kp H        &kp J           &kp K        &kp L    &kp SEMI  &mt RIGHT_ALT SQT
 &mt LCTRL BSPC  &kp Z  &kp X  &kp C      &kp V            &kp B        &kp N        &kp M           &kp COMMA    &kp DOT  &kp FSLH  &mt RIGHT_CONTROL RIGHT_BRACKET
-&kp LEFT_WIN                  &lt 2 TAB  &mt LSHFT SPACE  &lt LWR RET  &lt LWR ESC  &mt RSHFT BSPC  &lt RSE DEL                     &mt RWIN RBKT
+&kp LEFT_WIN                  &lt 2 TAB  &mt LSHFT SPACE  &lt LWR RET  &lt LWR ESC  &mt RSHFT BSPC  &lt RSE DEL                     &tog 4
             >;
         };
 
@@ -83,6 +83,15 @@
 &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
 &out OUT_TOG  &none         &none         &none         &none         &none         &none         &none         &none         &none         &none         &none
 &sys_reset                                &trans        &none         &trans        &trans        &none         &trans                                    &sys_reset
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans    &trans  &trans  &trans     &trans     &trans   &trans     &trans          &trans    &trans     &trans  &trans
+&trans    &trans  &trans  &kp LCTRL  &kp LSHFT  &trans   &trans     &kp LEFT_ARROW  &kp UP    &kp RIGHT  &trans  &trans
+&trans    &trans  &trans  &trans     &trans     &trans   &trans     &trans          &kp DOWN  &trans     &trans  &trans
+&kp LWIN                  &kp TAB    &kp SPACE  &kp RET  &kp ENTER  &kp RIGHT_ALT   &trans                       &tog 0
             >;
         };
     };

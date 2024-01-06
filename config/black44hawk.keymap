@@ -91,7 +91,7 @@
 &trans    &trans  &trans  &trans     &trans     &trans   &trans     &trans          &trans    &trans     &trans  &trans
 &trans    &trans  &trans  &kp LCTRL  &kp LSHFT  &trans   &trans     &kp LEFT_ARROW  &kp UP    &kp RIGHT  &trans  &trans
 &trans    &trans  &trans  &trans     &trans     &trans   &trans     &trans          &kp DOWN  &trans     &trans  &trans
-&kp LWIN                  &kp TAB    &kp SPACE  &kp RET  &kp ENTER  &kp RIGHT_ALT   &trans                       &tog 0
+&kp LWIN                  &kp TAB    &kp SPACE  &kp RET  &kp ENTER  &kp RIGHT_ALT   &trans                       &to 0
             >;
         };
     };
